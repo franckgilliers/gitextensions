@@ -94,7 +94,7 @@ deploy:
 - provider: Webhook
   on:
     ARTIFACT_SIGNING_ENABLED: true
-  url: https://app.signpath.io/API/v1/7c19b2cf-90f7-4d15-9b12-1b615f7c18c4/Integrations/AppVeyor?SigningPolicyId=5c9879c7-0dea-4303-8e5b-fc4192a7b0de
+  url: https://app.signpath.io/API/v1/7c19b2cf-90f7-4d15-9b12-1b615f7c18c4/Integrations/AppVeyor?SigningPolicyId=1865fbe6-d3af-4a9d-9ee1-def0609d1a9b
   on_build_success: true
   on_build_failure: false
   on_build_status_changed: false
